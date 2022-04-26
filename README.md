@@ -4,7 +4,7 @@
 
 The code portion of the project is divided into two modules (reinforcement learning not complete yet):
 * **DroneFirmware:** contains the C code that is compiled and uploaded to the Arduino to run the drone. Handles transceiver communication, individual control of each motor, interfaces with IMU to determine orientation, and stabilization using PID algorithms
-* **SerialRemote:** Python code that handles user input on a computer (supports keyboard or joystick) and interfaces with the transceiver connected to a USB to Serial module to send commands to the drone. These commands include information about thurst, pitch, roll, yaw, etc.
+* **SerialRemote:** Python code that handles user input on a computer (supports keyboard or joystick) and interfaces with the transceiver connected to a USB to Serial module to send commands to the drone. These commands include information about thurst, pitch, roll, yaw, etc. Easy to implement custom interface with user input devices as well as the commands to be sent on the transceiver.
 
 ## Requirements
 **SerialRemote:** requirements can be installed by running the following with Python 3 installed (file found in the SerialRemote directory):
